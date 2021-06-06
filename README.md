@@ -15,28 +15,28 @@ In conjunction with my roam-second-brain, which is focused on non-programming le
 
 ## Table of Contents
 
-### [:owl:Code]()
+### [:owl:Code](https://github.com/paulliwali/second-brain/tree/main/code)
 
-- [General]()
+- [General](code/general.md)
 
-### [:snake:Python]()
+### [:snake:Python](https://github.com/paulliwali/second-brain/blob/main/python)
 
-- [Basics]()
-- [PySpark]()
+- [Basics](python/basics.md)
+- [PySpark](python/pyspark.md)
 
-### [:t-rex:SQL]()
+### [:t-rex:SQL](https://github.com/paulliwali/second-brain/blob/main/sql)
 
-- [Basics]()
-- [Snippets]()
+- [Basics](sql/basics.md)
+- [Snippets](sql/snippets.md)
 
-### [:octopus:Git]()
+### [:octopus:Git](https://github.com/paulliwali/second-brain/blob/main/git)
 
-- [Basics]()
-- [Github]()
+- [Basics](git/basics.md)
+- [Github](git/github.md)
 
-### [:whale:Docker]()
+### [:whale:Docker](https://github.com/paulliwali/second-brain/blob/main/docker)
 
-- [Snippets]()
+- [Snippets](docker/snippets.md)
 
 ## Resources
 
