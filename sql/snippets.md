@@ -26,6 +26,16 @@ ON table_left.col_name = table_right.col_name
 WHERE table_right.site_id IS NULL 
 ```
 
+```SQL
+-- Pivot from long to wide
+SELECT
+	site_id, 
+	MAX(CASE WHEN metric_name = 'total_ssd' THEN metric_value END) AS total_ssd,
+	MAX(CASE WHEN metric_name = 'waiters_10_inf_perc' THEN metric_value END) as waiters_10_inf_perc
+FROM datalake.charging.charging_metrics_daily_final 
+GROUP BY site_id
+```
+
 ## Time related
 
 ```SQL

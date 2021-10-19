@@ -45,3 +45,14 @@ git branch -D $(git branch --merged)
 git reset --soft HEAD~n
 git reset --hard HEAD~n
 ```
+
+```bash
+# Checking git diff history
+git show HEAD~1
+git show <COMMIT>
+```
+
+```bash
+# Go to a specific commit and be in a detached state
+git checkout -b <new-branch-name> <SHA1>
+```
