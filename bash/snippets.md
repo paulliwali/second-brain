@@ -1,6 +1,8 @@
 ```bash
 # compress files
 tar -czvf name-of-archive.tar.gz /path/to/directory-or-file
+# extract
+tar -zxf name-of-archive.tar.gz /path/to/directory-or-file
 ```
 
 - `-c` create an archive
